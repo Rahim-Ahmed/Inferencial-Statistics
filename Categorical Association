@@ -69,6 +69,7 @@ Error - 0.443
 Error - 0.371
 Error - 2
 
+maybe ans is: 0.34 
 
 
 5. When looking at the association between types of crime and neighbourhood, we found a Chi-square value of 16.38, with a p-value of 0.003. What can we conclude?
@@ -132,6 +133,7 @@ expected = c(0.1, 0.4, 0.5)
 chisq.test(x = observed,
            p = expected)
 
+correct: 19.54 OK
 11. A university cafeteria sells sandwiches, salads and snacks all day. The manager is looking at the association between types of visitors (students, academic staff, general university workers) to see if there is an association between food choice (sandwiches, salads and snacks) and visitor type, so that he can prepare in advance for influxes of certain visitors.
 Which of the following would be a problem for performing a Chi-square analysis? Select all that apply.
 
